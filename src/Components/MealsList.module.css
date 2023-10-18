@@ -1,0 +1,15 @@
+.list {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+}
+
+.list ul,
+.list li {
+  list-style-type: none;
+}
+
+.list ul{
+    padding: 0;
+}
