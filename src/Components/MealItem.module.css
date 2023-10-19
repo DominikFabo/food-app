@@ -1,4 +1,22 @@
 .item{
     position: relative;
     width: 100%;
+    border-bottom: 1px gray solid;
+    display: flex;
+    justify-content: space-between;
+}
+.item h3{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.desc{
+    font-style: italic;
+    font-weight: 700;
+}
+.price{
+    color: brown;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 0.5rem;
 }

@@ -34,6 +34,7 @@ const MealsList = () => {
   const mealsListItems = DUMMY_MEALS.map((meal) => {
     return (
       <MealItem
+        id={meal.id}
         key={meal.id}
         name={meal.name}
         desc={meal.description}
@@ -45,7 +46,7 @@ const MealsList = () => {
   return (
     <section className={classes.list}>
       <Card>
-        <ul>{mealsListItems}</ul>
+        <ul className={classes.ulist}>{mealsListItems}</ul>
       </Card>
     </section>
   );
